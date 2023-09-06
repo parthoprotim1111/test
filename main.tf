@@ -29,7 +29,7 @@ resource "aws_subnet" "subnet_2" {
     Name = "Subnet 2"
   }
 }
-
+#setup
 
 resource "aws_subnet" "subnet_3" {
   vpc_id            = data.aws_vpc.existing_vpc.id
