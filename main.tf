@@ -41,7 +41,7 @@ resource "aws_subnet" "subnet_3" {
   }
 }
 
-#hi
+
 # RDS subnet group
 resource "aws_db_subnet_group" "rds_subnet_group" {
   name       = "rds-subnet-group"
